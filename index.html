@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="style.css">
+    <title>Net Worth Calculator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <div class="box">
+        <br>
+        <h1 class="title">Net Worth Calculator</h1>
+        <p class="hi">Enter the Monetary Value of your Assets and Liabilities to Calculate your Net Worth</p>
+    <hr>
+
+    <div class="headings">
+        <h2 id="asset">Assets</h2>
+        <h2 id="liability">Liabilities</h2>
+    </div>
+    
+    <form>
+        <div>
+            <label class="assets">Real Estate</label>
+            <label class="liablities">Mortgages</label>
+            <div><input type="number" class="re-input" placeholder="$0">
+                <input type="number" class="m-input" placeholder="$0"></div>
+        </div>
+    
+        <div>
+            <label class="assets">Chequings Account</label>
+            <label class="liablities">Consumer Debt</label>
+            <div><input type="number" class="ca-input" placeholder="$0">
+            <input type="number" class="cd-input" placeholder="$0"></div>
+        </div>
+    
+        <div>
+            <label class="assets">Savings Account</label>
+            <label class="liablities">Personal Loans</label>
+            <div><input type="number" class="sa-input" placeholder="$0">
+            <input type="number" class="pl-input" placeholder="$0"></div>
+        </div>
+    
+        <div>
+            <label class="assets">Retirement Accounts</label>
+            <label class="liablities">Student Loans</label>
+            <div><input type="number" class="ra-input" placeholder="$0">
+            <input type="number" class="sl-input" placeholder="$0"></div>
+        </div>
+    
+        <div>
+            <label class="assets">Vehicle(s)</label>
+            <label class="liablities">Auto Loans</label>
+            <div><input type="number" class="auto-input" placeholder="$0">
+            <input type="number" class="al-input" placeholder="$0"></div>
+        </div>
+    
+        <div>
+            <label class="assets">Other Valuables</label>
+            <label class="liablities">Other Debt</label>
+            <div><input type="number" class="oa-input" placeholder="$0">
+            <input type="number" class="od-input" placeholder="$0"></div>
+        </div> 
+        <input type="reset" class="button" value="Calculate Net Worth">
+    </form>  
+  
+    <div class="netdisplay">
+        <h1 class="display">Net Worth</h1>
+        <p class="net-worth"></p>
+    </div>
+
+    <div class="bar_chart">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <h1 class="breakdown">Breakdown of Net Worth</h1>
+
+    <div class="asset_chart">
+        <canvas id="assetChart"></canvas>
+    </div>
+      
+    <div class="liability_chart">
+        <canvas id="liabilityChart"></canvas>
+    </div>
+
+    <button class="again_button" onClick="window.location.reload();">Calculate Again</button>
+
+    <div class="end"></div>
+    </div>
+</body>
+</html>

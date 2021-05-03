@@ -1,0 +1,333 @@
+.title {
+    animation: type 4s steps(21);
+    animation-iteration-count: infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 50px;
+    border-right: 4px solid black;
+    width: 21ch;
+    margin: auto;
+}
+
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 21ch;
+    }
+}
+
+hr {
+    width: 98%;
+    border: 0; 
+    border-top: 2px solid black;
+}
+
+p {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box {
+    border: 2px solid black;
+    box-shadow: 5px 5px;
+}
+
+.headings {
+    margin-bottom: 100px;
+}
+
+#asset {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 30px;
+    text-align:left;
+    float:left;
+    padding-left: 12%;
+}
+
+#liability { 
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 30px;
+    text-align:right;
+    float:right;
+    padding-right: 12%;
+}
+
+.assets {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 18px;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.liablities {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 18px;
+    float: right;
+    min-width: 380px;
+    max-width:700px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 80px;
+}
+
+.re-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.re-input::placeholder {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+}
+
+.m-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 80px;   
+}
+
+.m-input::placeholder {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+}
+
+.ca-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.ca-input::placeholder {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+}
+
+.cd-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 80px;   
+}
+
+.cd-input::placeholder {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+}
+
+.sa-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.sa-input::placeholder {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+}
+
+.pl-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 80px;   
+}
+
+.pl-input::placeholder {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+}
+
+.ra-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.ra-input::placeholder {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+}
+
+.sl-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 80px;   
+}
+
+.sl-input::placeholder {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+}
+
+.auto-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.auto-input::placeholder {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+}
+
+.al-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 80px;   
+}
+
+.al-input::placeholder {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+}
+
+.oa-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.oa-input::placeholder {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+}
+
+.od-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 80px;   
+}
+
+.od-input::placeholder {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+}
+
+.button {
+    margin-top: 40px;
+    margin-left: 37%;
+    padding-bottom: 15px;
+    padding: 8px;
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+    background-color: rgb(233, 233, 214);
+}
+
+.display {
+    margin-top: 40px;
+    padding-left: 25px;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+    display: none;
+}
+
+.netdisplay p {
+    margin-top: 15px;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+.bar_chart {
+    margin-top: 15px;
+    display: none;
+}
+
+.breakdown {
+    margin-top: 40px;
+    padding-left: 25px;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+    display: none;
+}
+
+.asset_chart {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.liability_chart {
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.again_button {
+    margin-left: 37%;
+    padding-bottom: 15px;
+    padding: 8px;
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+    background-color: rgb(233, 233, 214);
+    display: none;
+}
+
+.end{
+    padding-bottom: 15px;
+}
